@@ -62,6 +62,8 @@
             margin-bottom: 30px;
         }
 
+        /* Commented out team section styles */
+        /*
         .team {
             display: flex;
             justify-content: center;
@@ -104,6 +106,7 @@
             font-size: 0.9rem;
             margin-bottom: 0;
         }
+        */
 
         footer {
             margin-top: 30px;
@@ -170,17 +173,21 @@
         }
 
         @media (max-width: 1200px) {
+            /*
             .team-member {
                 flex: 1 1 calc(33.33% - 40px);
                 max-width: calc(33.33% - 40px);
             }
+            */
         }
 
         @media (max-width: 900px) {
+            /*
             .team-member {
                 flex: 1 1 calc(50% - 40px);
                 max-width: calc(50% - 40px);
             }
+            */
         }
 
         @media (max-width: 600px) {
@@ -192,6 +199,7 @@
                 font-size: 1rem;
             }
 
+            /*
             .team-member {
                 flex: 1 1 calc(100% - 40px);
                 max-width: calc(100% - 40px);
@@ -209,17 +217,18 @@
             .team-member p {
                 font-size: 0.8rem;
             }
+            */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="section">
-            <img src="/logo.jpg" alt="STUKEE Logo" class="logo">
+            <img src="/STUKEE.jpg" alt="STUKEE Logo" class="logo">
             <h1>STUKEE</h1>
             <p>Be Connected. Be Growing.</p>
-            <p>Our software is launching soon. <br> Stay tuned!</p>
-            <button class="meet-team-btn" onclick="openPopup()">Meet Our Team</button><br>
+            <p>Our software is launching soon. Stay tuned!</p>
+            <!-- <button class="meet-team-btn" onclick="openPopup()">Meet Our Team</button><br> -->
             &copy; 2025 STUKEE. All rights reserved.
         </div>
 
@@ -228,6 +237,8 @@
         </footer>
     </div>
 
+    <!-- Commented out team popup section -->
+    <!--
     <div class="popup" id="teamPopup">
         <div class="popup-content">
             <div class="team">
@@ -275,7 +286,8 @@
             <button class="close-btn" onclick="closePopup()">Close</button>
         </div>
     </div>
-
+    -->
+<!-- 
     <script>
         function openPopup() {
             document.getElementById('teamPopup').style.display = 'flex';
@@ -284,6 +296,6 @@
         function closePopup() {
             document.getElementById('teamPopup').style.display = 'none';
         }
-    </script>
+    </script> -->
 </body>
 </html>
